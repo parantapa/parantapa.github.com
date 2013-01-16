@@ -1,2 +1,0 @@
-parantapa.github.com
-====================
