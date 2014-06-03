@@ -3,11 +3,11 @@
     src: url(fonts/CharisSIL-R.woff);
 }
 
-@font-face {
-    font-family: CharisSIL;
-    font-style: italic;
-    src: url(fonts/CharisSIL-I.woff);
-}
+/* @font-face { */
+/*     font-family: CharisSIL; */
+/*     font-style: italic; */
+/*     src: url(fonts/CharisSIL-I.woff); */
+/* } */
 
 @font-face {
     font-family: CharisSIL;
@@ -35,6 +35,10 @@ body {
 h1, h2 {
     font-family: Andika, sans-serif;
     font-weight: normal;
+}
+
+ul {
+    padding: 0;
 }
 
 div.container {
