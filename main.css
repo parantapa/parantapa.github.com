@@ -1,0 +1,45 @@
+@font-face {
+    font-family: CharisSIL;
+    src: url(fonts/CharisSIL-R.woff);
+}
+
+@font-face {
+    font-family: CharisSIL;
+    font-style: italic;
+    src: url(fonts/CharisSIL-I.woff);
+}
+
+@font-face {
+    font-family: CharisSIL;
+    font-weight: bold;
+    src: url(fonts/CharisSIL-B.woff);
+}
+
+/* @font-face { */
+/*     font-family: CharisSIL; */
+/*     font-weight: bold; */
+/*     font-style: italic; */
+/*     src: url(fonts/CharisSIL-BI.woff); */
+/* } */
+
+@font-face {
+    font-family: Andika;
+    src: url(fonts/Andika-R.woff);
+}
+
+body {
+    font-family: CharisSIL, serif;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: Andika, sans-serif;
+    font-weight: normal;
+}
+
+div.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3em 1em 1em 1em;
+}
+
