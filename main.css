@@ -1,39 +1,10 @@
-@font-face {
-    font-family: CharisSIL;
-    src: url(fonts/CharisSIL-R.woff);
-}
-
-/* @font-face { */
-/*     font-family: CharisSIL; */
-/*     font-style: italic; */
-/*     src: url(fonts/CharisSIL-I.woff); */
-/* } */
-
-@font-face {
-    font-family: CharisSIL;
-    font-weight: bold;
-    src: url(fonts/CharisSIL-B.woff);
-}
-
-/* @font-face { */
-/*     font-family: CharisSIL; */
-/*     font-weight: bold; */
-/*     font-style: italic; */
-/*     src: url(fonts/CharisSIL-BI.woff); */
-/* } */
-
-@font-face {
-    font-family: Andika;
-    src: url(fonts/Andika-R.woff);
-}
-
 body {
-    font-family: CharisSIL, serif;
+    font-family: charis_silregular, serif;
     font-size: 18px;
 }
 
 h1, h2 {
-    font-family: Andika, sans-serif;
+    font-family: andikaregular, sans-serif;
     font-weight: normal;
 }
 
