@@ -7,8 +7,28 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="fonts/fonts.css">
+<style type="text/css" media="screen">
+  body {
+    font-family: charis_silregular, serif;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: andikaregular, sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    padding: 0;
+}
+
+div.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3em 1em 1em 1em;
+}
+
+</style>
 
 <title>Parantapa Bhattacharya</title>
 
@@ -89,6 +109,18 @@ mine.</p>
   ga('require', 'displayfeatures');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
+</script>
+
+<script>
+  var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'fonts/fonts.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
 </script>
 
 </body>
