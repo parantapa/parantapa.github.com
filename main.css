@@ -1,6 +1,10 @@
 body {
     font-family: charis_silregular, serif;
     font-size: 18px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #eee;
+    text-rendering: optimizeLegibility;
 }
 
 h1, h2 {
@@ -17,4 +21,17 @@ div.container {
     margin: 0 auto;
     padding: 3em 1em 1em 1em;
 }
+
+.bib-inproceedings, .bib-article {
+    margin-bottom: .7em;
+}
+
+/* p { */
+/*     -webkit-hyphens: auto; */
+/*     -moz-hyphens: auto; */
+/*     -ms-hyphens: auto; */
+/*     -o-hyphens: auto; */
+/*     hyphens: auto; */
+/*     word-wrap: break-word; */
+/* } */
 
