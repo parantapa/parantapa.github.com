@@ -22,6 +22,20 @@ h1, h2 {
     font-weight: normal;
 }
 
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 135%;
+}
+
+code {
+    font-family: Inconsolata, monospace;
+    font-weight: normal;
+    font-size: 16px;
+}
+
 ul {
     padding: 0;
 }
@@ -143,15 +157,19 @@ mine.</p>
 </script>
 
 <script>
-  var cb = function() {
-    var l = document.createElement('link'); l.rel = 'stylesheet';
-    l.href = 'fonts/fonts.css';
-    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) raf(cb);
-  else window.addEventListener('load', cb);
+  var dyn_css = function(fname) {
+    var cb = function() {
+      var l = document.createElement('link'); l.rel = 'stylesheet';
+      l.href = fname;
+      var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+  }
+
+  dyn_css('fonts/fonts.css');
 </script>
 
 </body>
