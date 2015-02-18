@@ -72,7 +72,7 @@ div.container {
 <div class="container">
 
 <h1>Hello World!</h1>
-<p>My first post on my blog. A few days back I was searing for a decent
+<p>My first post on my blog. A few days back I was searching for a decent
 x86_64/amd64 and <span class="caps">AT</span>&amp;T assembly &#8220;hello world&#8221; program to kickstart my assembly
 programing quest. I didn&#8217;t find anything that I really liked. So here is my
 version.</p>
@@ -124,19 +124,15 @@ of the page on the <a href="http://archive.org/web/" title="Internet Archive: Wa
 </script>
 
 <script>
-  var dyn_css = function(fname) {
-    var cb = function() {
-      var l = document.createElement('link'); l.rel = 'stylesheet';
-      l.href = fname;
-      var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-              webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(cb);
-    else window.addEventListener('load', cb);
-  }
-
-  dyn_css('fonts/fonts.css');
+  var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'fonts/fonts.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
 </script>
 
 </body>
