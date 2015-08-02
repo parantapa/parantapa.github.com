@@ -2,10 +2,10 @@
  title = {{Sampling Content from Online Social Networks: Comparing Random vs. Expert Sampling of the Twitter Stream}},
  author = {M. B. Zafar and P. Bhattacharya and N. Ganguly and K. P. Gummadi and S. Ghosh},
  journal = {ACM Transactions on the Web (TWEB)},
- month = {},
- number = {},
- pages = {},
- volume = {},
- year = {(To~Appear)},
+ month = {June},
+ number = {3},
+ pages = {12:1--12:33},
+ volume = {9},
+ year = {2015},
 }
 
