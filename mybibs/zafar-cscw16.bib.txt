@@ -1,0 +1,9 @@
+@inproceedings{zafar-cscw16,
+ title = {{On the Wisdom of Experts vs. Crowds: Discovering Trustworthy Topical News in Microblogs}},
+ author = {M. B. Zafar and P. Bhattacharya and N. Ganguly and S. Ghosh and K. P. Gummadi},
+ booktitle = {Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW~'16)},
+ location = {San Francisco, California, USA},
+ month = {February},
+ year = {2016},
+}
+
