@@ -1,10 +1,10 @@
 @inproceedings{ghosh-cikm13,
- title = {{VMPatrol: Dynamic and Automated QoS for Virtual Machine Migrations}},
- author = {V. Mann and A. Vishnoi and A. Iyer and P. Bhattacharya},
- booktitle = {Proceedings of the 8th International Conference on Network and Service Management (CNSM~'12)},
- location = {Las Vegas, Nevada, USA},
+ title = {{On Sampling the Wisdom of Crowds: Random vs. Expert Sampling of the Twitter Stream}},
+ author = {S. Ghosh and M. B. Zafar and P. Bhattacharya and N. Sharma and N. Ganguly and K. P. Gummadi},
+ booktitle = {Proceedings of the 22nd ACM International Conference on Information and Knowledge Management (CIKM~'13)},
+ location = {San Francisco, California, USA},
  month = {October},
- pages = {174--178},
- year = {2012},
+ pages = {1739--1744},
+ year = {2013},
 }
 
