@@ -4,6 +4,6 @@
  booktitle = {Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW~'16)},
  location = {San Francisco, California, USA},
  month = {February},
- year = {2016},
+ year = {2016}
 }
 

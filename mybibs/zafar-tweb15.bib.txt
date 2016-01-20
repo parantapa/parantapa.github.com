@@ -6,6 +6,6 @@
  number = {3},
  pages = {12:1--12:33},
  volume = {9},
- year = {2015},
+ year = {2015}
 }
 

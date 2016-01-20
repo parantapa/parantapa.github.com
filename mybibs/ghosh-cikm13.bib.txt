@@ -5,6 +5,6 @@
  location = {San Francisco, California, USA},
  month = {October},
  pages = {1739--1744},
- year = {2013},
+ year = {2013}
 }
 
