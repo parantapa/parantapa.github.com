@@ -1,0 +1,9 @@
+@inproceedings{bhattacharya-icwsm16,
+ title = {{Characterizing Deleted Tweets and their Authors}},
+ author = {P. Bhattacharya and N. Ganguly},
+ booktitle = {Proceedings of the 10th AAAI International Conference on Web and Social Media (ICWSM~'16)},
+ location = {Cologne, Germany},
+ month = {May},
+ year = {2016}
+}
+
