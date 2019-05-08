@@ -9,7 +9,7 @@
 
 <style type="text/css" media="screen">
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe <span class="caps">UI</span>", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #222;
@@ -72,8 +72,11 @@ div.container {
 <h1>Parantapa Bhattacharya</h1>
 <p>I am Postdoctoral Researcher at the
 <a href="https://biocomplexity.virginia.edu/nssac" title="Network Systems Science and Advanced Computing Division">Network Systems Science and Advanced Computing Division</a>
-of the <a href="https://biocomplexity.virginia.edu/" title="Biocomplexity Institute and Initiative at the University of Virginia">Biocomplexity Institute and Initiative at the University of Virginia</a>.
-My research interests are in mining information from Online Social Media.
+of the <a href="https://biocomplexity.virginia.edu" title="Biocomplexity Institute and Initiative at the University of Virginia">Biocomplexity Institute and Initiative at the University of Virginia</a>.
+I am generally interested in building tools and systems
+that allow humans to extract information out of large amounts of data
+and analyzing and modeling behavior of
+large groups of humans on online social media.
 For this purpose, I use tools from
 statistics, machine learning, natural language processing,
 network analysis, and agent based modeling.</p>
@@ -83,6 +86,15 @@ network analysis, and agent based modeling.</p>
 <!-- bib2html:mypapers.bib:mypapers:mybibs -->
 
 <ul><li><div class="bib-inproceedings">
+    &#8220;The Matrix: An Agent-Based Modeling Framework for Data Intensive Simulations&#8221;.
+    P.&nbsp;Bhattacharya, S.&nbsp;Ekanayake, C.&nbsp;J.&nbsp;Kuhlman, C.&nbsp;Lebiere, D.&nbsp;Morrison, S.&nbsp;Swarup, M.&nbsp;L.&nbsp;Wilson, and M.&nbsp;G.&nbsp;Orr.
+    In <em>Proceedings of the 2019 International Conference on Autonomous Agents and Multiagent Systems (<span class="caps">AAMAS</span>&nbsp;&#8216;19)</em>.
+    Montreal, Canada, 2019.
+
+        [<a href="mypapers/bhattacharya-aamas19.pdf"><span class="caps">PDF</span></a>]
+        [<a href="mybibs/bhattacharya-aamas19.bib.txt"><span class="caps">BIB</span></a>]
+
+</div></li><li><div class="bib-inproceedings">
     &#8220;Characterizing Deleted Tweets and their Authors&#8221;.
     P.&nbsp;Bhattacharya, and N.&nbsp;Ganguly.
     In <em>Proceedings of the 10th <span class="caps">AAAI</span> International Conference on Web and Social Media (<span class="caps">ICWSM</span>&nbsp;&#8216;16)</em>.
@@ -194,6 +206,18 @@ from <a href="http://www.iiests.ac.in/" title="IIEST Shibpur, India">Bengal Engi
   ga('require', 'displayfeatures');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
+</script>
+
+<script>
+  var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'fonts/fonts.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
 </script>
 
 </body>

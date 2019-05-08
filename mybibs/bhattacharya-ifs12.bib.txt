@@ -1,5 +1,5 @@
 @article{bhattacharya-ifs12,
- title = {{An Analytical Framework for Measuring Network Security using Exploit Dependency Graph}},
+ title = {{{An Analytical Framework for Measuring Network Security using Exploit Dependency Graph}}},
  author = {P. Bhattacharya and S. K. Ghosh},
  journal = {IET, Information Security},
  month = {December},

@@ -1,5 +1,5 @@
 @inproceedings{ghosh-cikm13,
- title = {{On Sampling the Wisdom of Crowds: Random vs. Expert Sampling of the Twitter Stream}},
+ title = {{{On Sampling the Wisdom of Crowds: Random vs. Expert Sampling of the Twitter Stream}}},
  author = {S. Ghosh and M. B. Zafar and P. Bhattacharya and N. Sharma and N. Ganguly and K. P. Gummadi},
  booktitle = {Proceedings of the 22nd ACM International Conference on Information and Knowledge Management (CIKM~'13)},
  location = {San Francisco, California, USA},

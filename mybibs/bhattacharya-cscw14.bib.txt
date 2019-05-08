@@ -1,5 +1,5 @@
 @inproceedings{bhattacharya-cscw14,
- title = {{Deep Twitter Diving: Exploring Topical Groups in Microblogs at Scale}},
+ title = {{{Deep Twitter Diving: Exploring Topical Groups in Microblogs at Scale}}},
  author = {P. Bhattacharya and S. Ghosh and J. Kulshrestha and M. Mondal and M. B. Zafar and N. Ganguly and K. P. Gummadi},
  booktitle = {Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW~'14)},
  location = {Baltimore, Maryland, USA},

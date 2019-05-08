@@ -1,0 +1,9 @@
+@inproceedings{bhattacharya-aamas19,
+ title = {{{The Matrix: An Agent-Based Modeling Framework for Data Intensive Simulations}}},
+ author = {P. Bhattacharya and S. Ekanayake and C. J. Kuhlman and C. Lebiere and D. Morrison and S. Swarup and M. L. Wilson and M. G. Orr},
+ booktitle = {Proceedings of the 2019 International Conference on Autonomous Agents and Multiagent Systems (AAMAS~'19)},
+ location = {Montreal, Canada},
+ month = {May},
+ year = {2019}
+}
+
