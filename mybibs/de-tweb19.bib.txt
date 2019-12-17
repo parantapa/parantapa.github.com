@@ -1,0 +1,11 @@
+@article{de-tweb19,
+    author = {De, A. and Bhattacharya, S. and Bhattacharya, P. and Ganguly, N. and Chakrabarti, S.},
+    title = {{Learning Linear Influence Models in Social Networks from Transient Opinion Dynamics}},
+    journal = {ACM Trans. Web},
+    volume = {13},
+    number = {3},
+    year = {2019},
+    pages = {16:1--16:33},
+    doi = {10.1145/3343483},
+    publisher = {ACM},
+} 
