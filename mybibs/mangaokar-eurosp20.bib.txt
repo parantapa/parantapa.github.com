@@ -1,0 +1,9 @@
+@inproceedings{mangaokar-eurosp20,
+ title = {{Jekyll: Attacking Medical Image Diagnostics using Deep Generative Models}},
+ author = {N. Mangaokar and J. Pu and P. Bhattacharya and C. K. Reddy and B. Viswanath},
+ booktitle = {Proceedings of the 5th IEEE European Symposium on Security and Privacy (EuroS&P~'19)},
+ location = {Genova, Italy},
+ month = {September},
+ year = {2020}
+}
+
