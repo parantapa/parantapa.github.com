@@ -1,0 +1,13 @@
+@article{sambaturu-jmir20,
+    author = {Sambaturu, Prathyush and Bhattacharya, Parantapa and Chen, Jiangzhuo
+            and Lewis, Bryan and Marathe, Madhav and Venkatramanan, Srinivasan
+            and Vullikanti, Anil},
+    title = {{An Automated Approach for Finding Spatio-Temporal Patterns
+            of Seasonal Influenza in the United States:
+            Algorithm Validation Study}},
+    journal = {JMIR Public Health Surveillance},
+    year = {2020},
+    volume = {6},
+    number = {3},
+    doi = {10.2196/12842},
+}
